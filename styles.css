@@ -1,0 +1,31 @@
+body, html {
+    margin: 0;
+    background-color: skyblue;
+}
+
+#parallax-back {
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    bottom: 0;
+    background-color: rgb(134, 192, 214);
+}
+
+#parallax-middle {
+    position: absolute;
+    width: 100%;
+    height: 60%;
+    bottom: 0;
+    background-color: rgb(129, 179, 201);
+}
+
+#parallax-front {
+    position: absolute;
+    width: 100%;
+    height: 40%;
+    bottom: 0;
+    background-color: rgb(124, 169, 189);
+    
+    background-size: contain;
+    image-rendering: pixelated;
+}
